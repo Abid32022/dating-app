@@ -4,7 +4,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:dating_app/utils/helper/languageSelection/Provider/languageSelection_provider.dart';
 import 'package:dating_app/utils/helper/setup_locator.dart';
 import 'package:dating_app/views/my_app_screen/my_app.dart';
 import 'package:provider/provider.dart';
@@ -21,8 +20,8 @@ Future<void> main() async {
   await SentryFlutter.init(
         (options) {
       options.dsn = 'https://f7938180402537b7255af19060a049fb@o4508647231127552.ingest.us.sentry.io/4508647236632576';
-      options.tracesSampleRate = 1.0; // Adjust in production
-      options.profilesSampleRate = 1.0; // Adjust profiling rate
+      options.tracesSampleRate = 1.0;
+      options.profilesSampleRate = 1.0;
     },
     appRunner: () async {
       setupLocator();
