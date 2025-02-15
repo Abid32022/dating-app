@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import 'package:my_qurbani/views/dating_list_screen/dating_provider/dating_provider.dart';
+import 'package:dating_app/views/dating_list_screen/dating_provider/dating_provider.dart';
 import 'package:provider/provider.dart';
 import '../../config/app_constant.dart';
 import 'component/widget.dart';
@@ -65,7 +65,7 @@ class _DatingListScreenState extends State<DatingListScreen> {
                       );
                     }
 
-                    return  AnimationLimiter(  // Ensures staggered animations
+                    return  AnimationLimiter(
                       child: ListView.builder(
                         controller: _scrollController,
                         itemCount: provider.datingModel!.results!.length +
@@ -103,7 +103,6 @@ class _DatingListScreenState extends State<DatingListScreen> {
                         },
                       ),
                     );
-
                   },
                 ),
               ),

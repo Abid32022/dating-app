@@ -28,7 +28,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:875938592945:android:7ad7f96c56eb4f7076ca90",
         "android_client_info": {
-          "package_name": "com.example.my_qurbani"
+          "package_name": "com.fista.dating_app"
         }
       },
       "oauth_client": [],
@@ -47,7 +47,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:875938592945:android:544b06117a009d3776ca90",
         "android_client_info": {
-          "package_name": "com.techfista.my_qurbani"
+          "package_name": "com.techfista.dating_app"
         }
       },
       "oauth_client": [],

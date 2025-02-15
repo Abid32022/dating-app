@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 import 'notification_services.dart';
-// import 'package:my_qurbani/views/firebae_notification/notification_services.dart';
+// import 'package:dating_app/views/firebae_notification/notification_services.dart';
 
 class NotificationScreen extends StatefulWidget {
   const NotificationScreen({Key? key}) : super(key: key);

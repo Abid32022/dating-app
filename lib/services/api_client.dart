@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:my_qurbani/utils/network_error_handler.dart';
+import 'package:dating_app/utils/network_error_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../config/app_constant.dart';
 import '../config/app_urls.dart';

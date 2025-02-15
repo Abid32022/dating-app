@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:my_qurbani/views/auth/login_screen/login_screen.dart';
+// import 'package:dating_app/views/auth/login_screen/login_screen.dart';
 
 import 'auth_services.dart';
 

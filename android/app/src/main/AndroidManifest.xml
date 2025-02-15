@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     
     <application
-        android:label="my_qurbani"
+        android:label="dating_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

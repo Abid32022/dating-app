@@ -1,4 +1,4 @@
-package com.example.my_qurbani
+package com.fista.dating_app
 
 import io.flutter.embedding.android.FlutterActivity
 

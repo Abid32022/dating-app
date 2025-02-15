@@ -4,9 +4,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:my_qurbani/utils/helper/languageSelection/Provider/languageSelection_provider.dart';
-import 'package:my_qurbani/utils/helper/setup_locator.dart';
-import 'package:my_qurbani/views/my_app_screen/my_app.dart';
+import 'package:dating_app/utils/helper/languageSelection/Provider/languageSelection_provider.dart';
+import 'package:dating_app/utils/helper/setup_locator.dart';
+import 'package:dating_app/views/my_app_screen/my_app.dart';
 import 'package:provider/provider.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
@@ -29,7 +29,6 @@ Future<void> main() async {
       await Firebase.initializeApp();
       FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
       runApp(MyApp(),
-
       );
     },
   );

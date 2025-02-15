@@ -2,7 +2,7 @@
 
 // Create a service locator
 import 'package:get_it/get_it.dart';
-import 'package:my_qurbani/utils/local_provider.dart';
+import 'package:dating_app/utils/local_provider.dart';
 
 import '../../config/app_validators.dart';
 import '../../services/secure_storage_services.dart';
