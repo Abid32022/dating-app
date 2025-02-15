@@ -45,6 +45,7 @@ Widget datingCard({
           child: Row(
             children: [
               Stack(
+                clipBehavior: Clip.none,
                 children: [
                   Container(
                     width: 45.w,
@@ -60,11 +61,12 @@ Widget datingCard({
                     ),
                   ),
                   Positioned(
-                    bottom: 2,
-                    right: 3.5,
+
+                    bottom: -1,
+                    right: 2.5,
                     child: Container(
-                      width: 15.w,
-                      height: 15.h,
+                      width: 12.w,
+                      height: 12.h,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: Colors.green,
